@@ -43,7 +43,7 @@ const EmpCreate = () => {
 
                         <div className="card" style={{"textAlign":"left"}}>
                             <div className="card-title">
-                                <h2>Employee Create</h2>
+                                <h2>Product Create</h2>
                             </div>
                             <div className="card-body">
 
