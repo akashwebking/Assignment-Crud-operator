@@ -6,7 +6,7 @@ const EmpListing = () => {
     const navigate = useNavigate();
 
     const LoadEdit = (id) => {
-        navigate("/employee/edit/" + id);
+        navigate("/product/edit/" + id);
     }
     const Removefunction = (id) => {
         if (window.confirm('Do you want to remove?')) {
