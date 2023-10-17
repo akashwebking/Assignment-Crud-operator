@@ -5,7 +5,6 @@ const EmpEdit = () => {
     const productList=["select","Vegetables", "Fruits & Nuts", "Dairy & creams", "Packages Food" , "Staples"]
     const { empid } = useParams();
 
-    //const [empdata, empdatachange] = useState({});
 
     useEffect(() => {
         fetch("http://localhost:8000/employee/" + empid).then((res) => {
