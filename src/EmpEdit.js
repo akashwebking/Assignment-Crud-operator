@@ -104,7 +104,7 @@ const EmpEdit = () => {
 
                                             </select>
                                     </div>
-                                    <div className="col-lg-12">
+                                    <div className="col-lg-12 mb-3">
                                     <div className="form-group">
                                         <label>Description</label>
                                         <input required value={description}  onChange={e=>setDescription(e.target.value)} className="form-control"></input>
